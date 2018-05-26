@@ -1,0 +1,35 @@
+#wrapper {
+    /* border: 5px solid blue; */
+}
+#makers {
+    display: inline-block;
+    /* width:500px; */
+    overflow:hidden;
+    vertical-align:top;
+    border: 5px solid blue;
+}
+#series {
+    display: inline-block;
+    /* width:500px; */
+    overflow:hidden;
+    border: 5px solid red;
+}
+#substances {
+    vertical-align:top;
+    display: inline-block;
+    /* width:200px; */
+    
+    border: 5px solid green;
+}
+#action {
+    vertical-align:top;
+    display: inline-block;
+    /* width:200px; */
+    
+    border: 5px solid yellow;
+}
+body, select{
+    font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+    font-size: 11px;
+    font-style: normal;
+}
