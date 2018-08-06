@@ -34,8 +34,9 @@ function eraseCookie(name) {
 // script to create the language selector
 function showLanguageSelector(){
 	var select_html = "";								// the composed html for the select
-	var languages = ["en","pt","ru","nl"];
-	select_html = "en/pt/ru/nl: <select id='language_selector'>";
+	//var languages = ["en","pt","ru","nl"];
+	var languages = ["en","ru"];
+	select_html = "en/ru: <select id='language_selector'>";
 	languages.forEach(function(language){
 		select_html = select_html + "<option value='" + language + "'>" + language;
 	})
